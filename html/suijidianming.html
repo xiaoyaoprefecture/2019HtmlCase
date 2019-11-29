@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>2019级随机点名</title>
+		<link rel="stylesheet" href="../css/suijidianming.css" />
+		<script type="text/javascript" src="../js/suijidianming.js" ></script>
+	</head>
+	<body>
+		<center>
+			<img src="../img/suiji2.png" />
+			<br/>
+			<!--班级的选择-->
+			<div>
+				<select id="selectid" onchange="birthTable()" >
+					<option value="0">班级</option>
+					<option value="1">2019级软件3班</option>
+					<option value="2">2019级计网6班</option>
+					<option value="3">2019级计网7班</option>
+				</select>
+			</div>
+			<!--动态追加相应班级的名单-->
+			<div id="nameList">
+				
+			</div>
+			<!--点击按钮实现随机点名的效果-->
+			<div>
+				<button id="btn_suiji" onclick="randomName()" value="开始">开始</button>
+			</div>
+			
+		</center>
+		
+	</body>
+</html>
