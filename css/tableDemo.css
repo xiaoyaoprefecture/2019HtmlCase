@@ -1,0 +1,23 @@
+/*设置li的宽度*/
+li{
+	width: 100px;
+}
+/*设置td的样式*/
+td{
+	width: 100px;
+	height:40px;
+	text-align: center;
+}
+/*设置标题的字体*/
+caption{
+	font-family: "微软雅黑";
+	font-size: 26px;
+}
+/*设置类名为class1的样式*/
+.class1{
+	background-color: #0f0;
+}
+/*设置类名为class2的样式*/
+.class2{
+	color: #f00;
+}
