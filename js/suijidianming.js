@@ -8,9 +8,9 @@ jiwang6=["王松","唐雯","陈霖","吴波","黄果","唐柯","向庆","杨丹"
 	,"李承治","闫思懿","冯莹","彭念","施静","李盈盈","杨泽林","刘中平"
 	,"向洪林","罗甜甜","张睿","杨子怡","谭小静","王祥","叶元平","杨渔鸿"
 	,"洪启兰","叶璇","田俊杰","周才琳","杨军军","李洪君","陆佳","黎萌"
-	,"刘兴","陈思睿","张林雪","阙韩非","周鹏","温山林"
+	,"刘兴","陈思睿","张林雪","阙韩非","邹鹏","温山林"
 ];
-jiwang7=["朱世杰","浦俊","李俊谋","董海波","王善宇","韩秋延","朱超",
+jiwang7=["朱世杰","蒲俊","李俊谋","董海波","王善宇","韩秋延","朱超",
 	"张宇灿","杨得印","蒋奕麟","杨博涛","田浩","晏仔","蒋大钊","查远堃"
 	,"徐瑞","汪虹宇","何浩","吴季壕","杨德","李廷辉","段嘉尧","禹翔"
 	,"龙佳","刘妍","杜静","郭佳佳","张诗雨","雷欣怡","樊鑫","曹洪琴"
@@ -19,10 +19,12 @@ jiwang7=["朱世杰","浦俊","李俊谋","董海波","王善宇","韩秋延","�
 ];
 /*根据对应的选择生成对应的表格*/
 //获取下拉框的value值
-var obj=document.getElementById("selectid").value;
+
 //获取装动态生成的div盒子的对象
-var nameList=document.getElementById("nameList");
+
 function birthTable(){
+	var obj=document.getElementById("selectid").value;
+	var nameList=document.getElementById("nameList");
 	//获取所有class=div1的盒子对象
 	var classdiv1=document.querySelectorAll(".div1");
 	//清空原有追加的div盒子
@@ -70,6 +72,7 @@ var bian;
 //声明一个计数
 var num=0;
 function randomName(){
+	var obj=document.getElementById("selectid").value;
 	//判断是否选中班级
 	if(obj==0){
 		alert("请选择班级");
@@ -81,7 +84,7 @@ function randomName(){
 			//更改当前的按钮文字
 			btn.innerHTML="结束";
 			//开始随机点名，10毫秒进行一次随机
-			bian=setInterval("startRan()",10);
+			bian=setInterval("startRan()",100);
 		}else{	
 			//结束随机点名
 			clearInterval(bian);
