@@ -1,0 +1,15 @@
+div{
+	background-color:#00FF00;
+	width: 300px;
+	margin: 0 auto;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	padding-left: 15px;
+}
+.input1{
+	width: 250px;
+}
+#div1{
+	margin: 0 auto;
+}

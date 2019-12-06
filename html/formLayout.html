@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>form表单注册页面的布局</title>
+		<link rel="stylesheet" href="../css/formLayout.css" />
+		<script type="text/javascript" src="../js/formLayout.js" ></script>
+	</head>
+	<body>	
+			<form action="TableDemo2.html" method="get">
+				<div>姓名:<input class="input1" type="text" placeholder="请输入姓名" /></div>
+				<div>密码:<input class="input1" type="password" placeholder="请输入密码" /></div>
+				<div>确认:<input class="input1" type="password" placeholder="请再次输入密码" /></div>
+				<div>性别:<input type="radio" name="sex" value="男"/>男
+				<input type="radio" name="sex" value="女"/>女</div>
+				<div>兴趣:<input type="checkbox" name="interest" value="篮球" />篮球
+				<input type="checkbox" name="interest" value="看书" />看书
+				<input type="checkbox" name="interest" value="电竞" />电竞
+				<input type="checkbox" name="interest" value="跑步" />跑步</div>
+				<div>文件:<input type="file"/></div>
+				<div id="div1"><center><input type="submit" value="注册" />
+				&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="重置" />
+				</center></div>
+				<div><center><input type="button" value="js点击事件" onclick="formLayout()" /></center></div>				
+			</form>		
+	</body>
+</html>
