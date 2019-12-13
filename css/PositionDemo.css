@@ -1,0 +1,30 @@
+div{
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				z-index: 2;
+			}
+			#div1{
+				background-color: #00f;				
+				left: 30px;
+				top: 30px;
+			}
+			#div2{
+				background-color: #0f0;
+				left: 50px;
+				top: 50px;		
+			}
+			#div3{
+				background-color: #ff0;
+				left: 70px;
+				top: 70px;
+			}
+			#div4{
+				background-color: #000;
+				left: 90px;
+				top: 90px;
+			}
+			div:hover{
+				cursor: pointer;
+				z-index: 5;
+			}

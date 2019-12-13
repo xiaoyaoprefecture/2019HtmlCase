@@ -1,0 +1,73 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	text-decoration: none;
+	color: cyan;
+}
+#all{
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid black;*/
+	background-image: url(../img/lastImg/xingkong.jpg);
+}
+/*导航栏开始*/
+#div_guide{
+	
+	width: 800px;
+	height: 60px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	margin-top: 45px;
+}
+#div_guide ul li{
+	width: 160px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	float: left;
+	font-size: 26px;
+}
+/*#div_guide ul li a{
+	color:black;
+}*/
+#div_guide ul li:hover,#content_left ul li:hover{
+	cursor: pointer;
+	background-color: #07f;
+}
+/*导航栏结束*/
+
+#content{
+	margin-top: 100px;
+	width: 100%;
+	height: 500px;
+}
+img{
+	width: 300px;
+	height: 240px;
+	margin-left: 20px;
+}
+#content_left{			
+	/*border: 1px solid red;*/
+	float: left;
+	margin-left: 100px;
+}
+#content_left ul li{
+	width: 250px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 22px;
+}
+#content_right{
+	margin-left: 500px;
+	width: 1000px;
+	/*border: 1px solid red;*/
+}
+#foot{
+	width: 100%;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	font-size: 18px;
+}
